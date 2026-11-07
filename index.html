@@ -2,9 +2,9 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Hirhyel D. Ndahi | Engineering Portfolio</title>
 <style>
-:root{--bg:#f3fbfa;--sf:#fff;--tx:#0d2b33;--mu:#4c6870;--pr:#0e9f9a;--soft:#d9f3f1;--co:#ff7a59;--su:#ffc857;--ln:#cde6e4;color-scheme:light}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0a1c21;--sf:#112a31;--tx:#e8f6f5;--mu:#9bbcc0;--pr:#2fd0c9;--soft:#14383d;--ln:#1f4249;color-scheme:dark}}
-:root[data-theme=dark]{--bg:#0a1c21;--sf:#112a31;--tx:#e8f6f5;--mu:#9bbcc0;--pr:#2fd0c9;--soft:#14383d;--ln:#1f4249;color-scheme:dark}
+:root{--bg:#fbf8f3;--sf:#fff;--tx:#1f2d3a;--mu:#5a6b78;--pr:#167a80;--soft:#e3f1f0;--co:#e0a458;--su:#f2cf8a;--ln:#e6e0d4;color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1f26;--sf:#17303a;--tx:#eef4f3;--mu:#a3bcc2;--pr:#5fc4c0;--soft:#1c3c46;--co:#e8b774;--su:#f2cf8a;--ln:#27464f;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#0f1f26;--sf:#17303a;--tx:#eef4f3;--mu:#a3bcc2;--pr:#5fc4c0;--soft:#1c3c46;--co:#e8b774;--su:#f2cf8a;--ln:#27464f;color-scheme:dark}
 *{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom,0)}
 .w{max-width:1040px;margin:0 auto;padding:0 20px}
@@ -25,8 +25,8 @@ h2{font-size:28px;margin:34px 0 6px}h2::after{content:"";display:block;width:46p
 .ty{font-size:22px;font-weight:700;color:var(--pr);min-height:34px}.cu{animation:bl 1s infinite;color:var(--co)}@keyframes bl{50%{opacity:0}}
 .lead{color:var(--mu);margin:8px 0 18px}
 .bt{display:flex;gap:10px;flex-wrap:wrap}
-.btn{background:var(--pr);color:#fff;border:2px solid var(--pr);padding:10px 18px;border-radius:10px;font:600 15px inherit;font-family:inherit;text-decoration:none;cursor:pointer;transition:.2s}
-.btn:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(14,159,154,.3)}.btn.o{background:transparent;color:var(--pr)}
+.btn{background:var(--pr);color:var(--bg);border:2px solid var(--pr);padding:10px 18px;border-radius:10px;font:600 15px inherit;font-family:inherit;text-decoration:none;cursor:pointer;transition:.2s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(22,122,128,.3)}.btn.o{background:transparent;color:var(--pr)}
 .fact{margin-top:14px;background:var(--soft);border-left:4px solid var(--su);padding:10px 14px;border-radius:0 10px 10px 0;display:none}
 .hp{position:relative;display:grid;place-items:center}
 .gear{position:absolute;width:112%;max-width:420px;animation:sp 24s linear infinite;opacity:.55}@keyframes sp{to{rotate:360deg}}
@@ -40,14 +40,14 @@ h2{font-size:28px;margin:34px 0 6px}h2::after{content:"";display:block;width:46p
 .stat b{display:block;font-size:34px;color:var(--pr)}.stat:nth-child(even) b{color:var(--co)}.stat span{font-size:13px;color:var(--mu)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
 .card{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:16px;transition:box-shadow .2s;transform:perspective(700px) rotateX(var(--rx,0)) rotateY(var(--ry,0));text-decoration:none;color:inherit;display:block}
-.card:hover{box-shadow:0 12px 28px rgba(14,159,154,.22)}.card h3{font-size:17px;margin:10px 0 4px}.card p{font-size:14px;color:var(--mu)}
+.card:hover{box-shadow:0 12px 28px rgba(22,122,128,.22)}.card h3{font-size:17px;margin:10px 0 4px}.card p{font-size:14px;color:var(--mu)}
 .card .ic{font-size:26px}
 .tg{display:inline-block;font-size:11px;font-weight:700;background:var(--soft);color:var(--pr);padding:2px 10px;border-radius:20px;margin:6px 6px 0 0}
-.tg.c{background:#ffe3da;color:#c24a28}
+.tg.c{background:#f8e8cf;color:#8a5a14}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .chip{border:1.5px solid var(--pr);background:transparent;color:var(--pr);padding:5px 14px;border-radius:20px;cursor:pointer;font:600 13px inherit;font-family:inherit;transition:.2s}
-.chip.on,.chip:hover{background:var(--pr);color:#fff}
-.sk{background:var(--sf);border:1.5px solid var(--ln);color:var(--tx);padding:7px 14px;border-radius:12px;font-size:14px;transition:.2s;cursor:default}.sk:hover{transform:scale(1.1) rotate(-2deg);border-color:var(--co);background:#ffe3da;color:#7a2a12}
+.chip.on,.chip:hover{background:var(--pr);color:var(--bg)}
+.sk{background:var(--sf);border:1.5px solid var(--ln);color:var(--tx);padding:7px 14px;border-radius:12px;font-size:14px;transition:.2s;cursor:default}.sk:hover{transform:scale(1.1) rotate(-2deg);border-color:var(--co);background:#f8e8cf;color:#5c3d0c}
 .job{background:var(--sf);border:1px solid var(--ln);border-left:5px solid var(--pr);border-radius:14px;margin-bottom:14px;overflow:hidden}
 .job:nth-child(even){border-left-color:var(--co)}
 .jh{width:100%;text-align:left;background:none;border:0;padding:16px;cursor:pointer;color:inherit;font:inherit;display:flex;justify-content:space-between;gap:10px}
@@ -57,10 +57,10 @@ h2{font-size:28px;margin:34px 0 6px}h2::after{content:"";display:block;width:46p
 .tl{border-left:3px solid var(--pr);padding-left:18px}.tl div{position:relative;padding:8px 0;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .tl div::before{content:"";position:absolute;left:-26px;top:16px;width:11px;height:11px;border-radius:50%;background:var(--co)}
 .tl span{color:var(--mu);font-size:14px}
-.md{position:fixed;inset:0;background:rgba(5,25,30,.7);display:none;place-items:center;z-index:9;padding:16px}.md.on{display:grid}
+.md{position:fixed;inset:0;background:rgba(15,31,38,.7);display:none;place-items:center;z-index:9;padding:16px}.md.on{display:grid}
 .mb{background:var(--sf);border-radius:20px;max-width:640px;width:100%;max-height:88vh;overflow:auto;padding:20px;animation:pop .25s}@keyframes pop{from{scale:.9;opacity:0}}
 .mb ul{padding-left:18px;color:var(--mu);margin:10px 0}.mb h3{font-size:22px;margin-top:12px}
-.ts{position:fixed;bottom:24px;left:50%;translate:-50% 80px;background:var(--pr);color:#fff;padding:10px 20px;border-radius:30px;transition:.3s;z-index:10;font-weight:600}.ts.on{translate:-50% 0}
+.ts{position:fixed;bottom:24px;left:50%;translate:-50% 80px;background:var(--pr);color:var(--bg);padding:10px 20px;border-radius:30px;transition:.3s;z-index:10;font-weight:600}.ts.on{translate:-50% 0}
 .cf{position:fixed;top:-30px;z-index:20;animation:fl 2.4s linear forwards;pointer-events:none}@keyframes fl{to{top:105vh;rotate:540deg}}
 .rv{opacity:0;translate:0 16px;transition:opacity .5s,translate .5s}.rv.in{opacity:1;translate:0 0}
 footer{text-align:center;color:var(--mu);font-size:13px;padding:22px;border-top:1px solid var(--ln)}
@@ -97,7 +97,7 @@ const CERT=[["MicroStation for Civil Designers","Bentley Advancing Infrastructur
 const ICO={about:"🙋",experience:"💼",projects:"🛠️",skills:"🧰",leadership:"🏁",contact:"✉️"};
 const DESC={about:"Education, certifications, and who I am.",experience:"IDOT, WIU, and Cook Medical.",projects:"Click a project to see the details.",skills:"Tools and methods I use.",leadership:"Teams, events, and honors.",contact:"Let’s build something."};
 const PG={
-home:()=>`<section class="hero"><div><p class="eb">Engineering Technology · Western Illinois University</p><h1>Hi, I’m <span class="grad">Hirhyel D. Ndahi</span></h1><p class="ty"><span id="ty"></span><b class="cu">|</b></p><p class="lead">${SUM}</p><div class="bt"><a class="btn" href="#projects">Explore my work</a><a class="btn o" href="#contact">Let’s talk</a><button class="btn o" data-fact>🎲 Surprise me</button></div><p class="fact" id="fact"></p></div><div class="hp"><svg class="gear" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#ff7a59" stroke-width="10" stroke-dasharray="6.3 6.3"/><circle cx="50" cy="50" r="33" fill="none" stroke="#0e9f9a" stroke-width="4"/></svg>${im("profile.jpg","Your portrait photo","rd")}</div></section>
+home:()=>`<section class="hero"><div><p class="eb">Engineering Technology · Western Illinois University</p><h1>Hi, I’m <span class="grad">Hirhyel D. Ndahi</span></h1><p class="ty"><span id="ty"></span><b class="cu">|</b></p><p class="lead">${SUM}</p><div class="bt"><a class="btn" href="#projects">Explore my work</a><a class="btn o" href="#contact">Let’s talk</a><button class="btn o" data-fact>🎲 Surprise me</button></div><p class="fact" id="fact"></p></div><div class="hp"><svg class="gear" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#e0a458" stroke-width="10" stroke-dasharray="6.3 6.3"/><circle cx="50" cy="50" r="33" fill="none" stroke="#167a80" stroke-width="4"/></svg>${im("profile.jpg","Your portrait photo","rd")}</div></section>
 <div class="stats"><div class="stat rv"><b data-n="4" data-d="1">0</b><span>M.S. GPA</span></div><div class="stat rv"><b data-n="15" data-s="+">0</b><span>production drawings at Cook Medical</span></div><div class="stat rv"><b data-n="50" data-s="+">0</b><span>students trained per semester</span></div><div class="stat rv"><b data-n="72" data-s="V">0</b><span>EV race kart system</span></div></div>
 <h2>Explore</h2><div class="grid">${P.slice(1).map(([k,l])=>`<a class="card rv" href="#${k}"><div class="ic">${ICO[k]}</div><h3>${l}</h3><p>${DESC[k]}</p></a>`).join("")}</div>`,
 about:()=>`<h2>About me</h2><div class="hero" style="grid-template-columns:1fr 1fr"><div><p class="sub">${SUM}</p><p class="sub">Outside of engineering I enjoy wood burning, creating designs by hand in wood.</p><a class="btn" href="${DRIVE}" target="_blank" rel="noopener">Open my Drive portfolio</a></div>${im("about.jpg","A photo of you working or in the lab")}</div>

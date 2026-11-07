@@ -1,121 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Hirhyel David Ndahi | Engineering Portfolio</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hirhyel Ndahi | Engineering Portfolio</title>
 <style>
-:root{--bg:#faf9ff;--surface:#fff;--text:#1e1b2e;--muted:#5d5a70;--accent:#5b34b8;--accent-soft:#eeeafc;--gold:#e0a800;--line:#e2dff0;color-scheme:light;
-box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#13111c;--surface:#1c1929;--text:#efedf8;--muted:#a9a5c0;--accent:#a68bf0;--accent-soft:#2a2442;--gold:#f0c43a;--line:#322d49;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#13111c;--surface:#1c1929;--text:#efedf8;--muted:#a9a5c0;--accent:#a68bf0;--accent-soft:#2a2442;--gold:#f0c43a;--line:#322d49;color-scheme:dark}
-*{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px))}
-body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6}
-.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
-nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
-.logo{font-weight:700;color:var(--accent);text-decoration:none}
-.links{display:flex;gap:16px;overflow-x:auto;font-size:14px}
-.links a{color:var(--muted);text-decoration:none;white-space:nowrap}
-.links a:hover{color:var(--accent)}
-.hero{padding:64px 0 48px}
-.eyebrow{color:var(--accent);font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
-h1{font-size:clamp(34px,7vw,56px);line-height:1.1;margin:10px 0 14px;letter-spacing:-.02em}
-.lead{font-size:18px;color:var(--muted);max-width:640px}
-.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
-.btn{padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;border:1.5px solid var(--accent);color:var(--accent)}
-.btn.fill{background:var(--accent);color:var(--bg)}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:36px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
-.stat b{display:block;font-size:24px;color:var(--accent)}
-.stat span{font-size:13px;color:var(--muted)}
-section{padding:44px 0;border-top:1px solid var(--line)}
-h2{font-size:26px;margin-bottom:6px}
-h2::after{content:"";display:block;width:44px;height:4px;background:var(--gold);border-radius:2px;margin-top:8px}
-.sub{color:var(--muted);margin:12px 0 22px;max-width:640px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
-.card h3{font-size:17px;margin-bottom:6px}
-.card p{font-size:14.5px;color:var(--muted)}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
-.tag{font-size:12px;background:var(--accent-soft);color:var(--accent);padding:3px 10px;border-radius:20px}
-.job{border-left:3px solid var(--accent);padding:2px 0 2px 16px;margin-bottom:22px}
-.job h3{font-size:17px}
-.job .meta{font-size:13px;color:var(--muted);margin-bottom:6px}
-.job ul{padding-left:18px;font-size:14.5px;color:var(--muted)}
-.job li{margin-bottom:3px}
-.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-.contact a{color:var(--accent)}
-footer{padding:28px 0;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
-</style>
-</head>
-<body>
-<nav><div class="wrap"><a class="logo" href="#top">HDN</a>
-<div class="links"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#creative">Creative</a><a href="#contact">Contact</a></div></div></nav>
-
-<header class="hero" id="top"><div class="wrap">
-<div class="eyebrow">Engineering Technology · Western Illinois University</div>
-<h1>Hirhyel David Ndahi</h1>
-<p class="lead">I design, build, and improve things. From CAD drawings and CNC programs to robots, race karts, and lab Kaizen projects, I turn technical problems into working solutions.</p>
-<div class="btns"><a class="btn fill" href="#work">See my work</a><a class="btn" href="#contact">Get in touch</a></div>
-<div class="stats">
-<div class="stat"><b>4.0</b><span>M.S. GPA</span></div>
-<div class="stat"><b>15+</b><span>production drawings at Cook Medical</span></div>
-<div class="stat"><b>50+</b><span>students taught per semester</span></div>
-<div class="stat"><b>72V</b><span>EV race kart systems</span></div>
-</div></div></header>
-
-<section id="about"><div class="wrap">
-<h2>About me</h2>
-<p class="sub">I’m completing my M.S. in Engineering Technology at WIU after earning my B.S. with Cum Laude honors. I’ve worked in an FDA-regulated medical device plant, taught students on CNC machines and Universal Robots, and led hands-on projects from 3D printing research to a lab redesign. I like work where precision, safety, and clear documentation matter.</p>
-</div></section>
-
-<section id="work"><div class="wrap">
-<h2>Projects and skill areas</h2>
-<p class="sub">Each area has its own write-up and files in my portfolio folders.</p>
-<div class="grid">
-<div class="card"><h3>CAD and Technical Drawings</h3><p>2D and 3D drawings, fixture designs, and production layouts across multiple platforms, including 15+ drawings for manufacturing lines at Cook Medical.</p><div class="tags"><span class="tag">AutoCAD</span><span class="tag">SolidWorks</span><span class="tag">Inventor</span><span class="tag">Creo</span></div></div>
-<div class="card"><h3>CAM and CNC Machining</h3><p>I take parts from design file to toolpath to finished machining, and I teach CNC setup and safe operation to students each semester.</p><div class="tags"><span class="tag">CAM</span><span class="tag">CNC</span><span class="tag">Toolpaths</span></div></div>
-<div class="card"><h3>Master’s Research: Recycled PET Filament</h3><p>I turned post-consumer PET bottles into 3D printing filament, then printed test specimens and compared tensile strength, layer adhesion, and surface roughness against virgin PLA.</p><div class="tags"><span class="tag">3D Printing</span><span class="tag">Materials Testing</span><span class="tag">Sustainability</span></div></div>
-<div class="card"><h3>Robotics Manual Development</h3><p>I wrote a structured UR10 student manual that standardized the build and programming workflow for lab sessions.</p><div class="tags"><span class="tag">Universal Robots</span><span class="tag">PLC</span><span class="tag">Technical Writing</span></div></div>
-<div class="card"><h3>Welding and Plasma Lab Kaizen</h3><p>I evaluated lab inefficiencies, redesigned the layout and safety flow, and converted the space into a functional instructional lab.</p><div class="tags"><span class="tag">Kaizen</span><span class="tag">5S</span><span class="tag">Lab Safety</span></div></div>
-<div class="card"><h3>Torchmate Design and Plasma Cutting</h3><p>I design cut files in Torchmate and run them on the plasma cutter, handling setup, parameters, and finishing myself.</p><div class="tags"><span class="tag">Torchmate</span><span class="tag">Plasma Cutting</span><span class="tag">Welding</span></div></div>
-<div class="card"><h3>Electric Racing Vehicle</h3><p>I designed and integrated the drivetrain and power distribution system for WIU’s 72V EV race kart, configured motor controller parameters, and ran diagnostics. I also serve as team Treasurer.</p><div class="tags"><span class="tag">72V EV</span><span class="tag">Motor Controllers</span><span class="tag">High Voltage</span></div></div>
-<div class="card"><h3>3D Printing Practice</h3><p>I’m comfortable with the full FDM process: file prep, slicing, machine setup, troubleshooting, and post-processing.</p><div class="tags"><span class="tag">FDM</span><span class="tag">Slicing</span><span class="tag">Post-processing</span></div></div>
-</div></div></section>
-
-<section id="experience"><div class="wrap">
-<h2>Experience</h2><p class="sub"></p>
-<div class="job"><h3>Geometrics Engineering Intern</h3><div class="meta">IDOT District 9 · Carbondale, IL</div>
-<ul><li>Support transportation project documentation and road design drafting</li><li>Work in MicroStation, OpenRoads, and ProjectWise</li></ul></div>
-<div class="job"><h3>Graduate Teaching Support Assistant</h3><div class="meta">Engineering Technology Department, WIU · Aug 2025 to present</div>
-<ul><li>Guide 50+ students per semester on AutoCAD, CAM, CNC machines, PLCs, and Universal Robots</li><li>Deliver hands-on training and enforce lab safety protocols</li><li>Support faculty with lectures and tutorials, and mentor students one-on-one</li></ul></div>
-<div class="job"><h3>Manufacturing Engineering Co-Op</h3><div class="meta">Cook Medical · Canton, IL · Jan 2024 to Apr 2024</div>
-<ul><li>Supported process validation, equipment integration, and quality compliance in an FDA-regulated environment</li><li>Developed 15+ 2D/3D drawings and production layouts in AutoCAD and SolidWorks</li><li>Ran root cause analyses with 5 Whys and Pareto Charts, supporting FDA and ISO 13485 requirements</li><li>Collected and analyzed IQ/OQ/PQ data and performed time studies to validate machine capability</li><li>Worked with R&D, Quality, and Production teams on process improvements</li></ul></div>
-<div class="job"><h3>IT Laboratory Assistant</h3><div class="meta">University Technology, WIU · Aug 2022 to Jan 2024</div>
-<ul><li>Supported 100+ students and faculty per semester across 40+ workstations</li><li>Wrote training resources and troubleshooting guides</li></ul></div>
-</div></section>
-
-<section id="skills"><div class="wrap">
-<h2>Skills</h2><p class="sub"></p>
-<div class="skills">
-<div class="card"><h3>Design</h3><p>AutoCAD, SolidWorks, Inventor, Creo, DraftSight, Bluebeam, MicroStation, OpenRoads</p></div>
-<div class="card"><h3>Manufacturing</h3><p>CNC, CAM, Torchmate, plasma cutting, welding, 3D printing, Universal Robots, PLC systems</p></div>
-<div class="card"><h3>Process Improvement</h3><p>Lean, Kaizen, 5S, root cause analysis, time studies, WHY-WHY-HOW</p></div>
-<div class="card"><h3>Data and Quality</h3><p>Minitab, Power BI, advanced Excel, ERP/MES, IQ/OQ/PQ, SOP development</p></div>
-</div></div></section>
-
-<section id="creative"><div class="wrap">
-<h2>Beyond engineering</h2>
-<p class="sub">Outside of work I do wood burning and pyrography. I design my own patterns, transfer them to wood, and build up shading and detail with layered passes. The same patience and precision show up in my engineering work.</p>
-</div></section>
-
-<section id="contact" class="contact"><div class="wrap">
-<h2>Contact</h2>
-<p class="sub">I’m open to engineering roles where I can apply technical skills and project management. Reach out any time.</p>
-<p><a href="mailto:hirhyeld@gmail.com">hirhyeld@gmail.com</a> · <a href="tel:+17179629061">(717) 962-9061</a> · <a href="https://www.linkedin.com/in/hirhyel-david-ndahi">LinkedIn</a></p>
-</div></section>
-<footer>© 2026 Hirhyel David Ndahi</footer>
-</body>
-</html>
+:root{--bg:#f3fbfa;--sf:#fff;--tx:#0d2b33;--mu:#4c6870;--pr:#0e9f9a;--soft:#d9f3f1;--co:#ff7a59;--su:#ffc857;--ln:#cde6e4;color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0a1c21;--sf:#112a31;--tx:#e8f6f5;--mu:#9bbcc0;--pr:#2fd0c9;--soft:#14383d;--ln:#1f4249;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#0a1c21;--sf:#112a31;--tx:#e8f6f5;--mu:#9bbcc0;--pr:#2fd0c9;--soft:#14383d;--ln:#1f4249;color-scheme:dark}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom,0)}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--ln);padding-top:env(safe-area-inset-top,0)}
+.nv{display:flex;align-items:center;gap:14px;height:58px}
+.lg{font-weight:800;font-size:22px;color:var(--pr);text-decoration:none;cursor:pointer}.lg i{color:var(--co)}
+.ln{display:flex;gap:4px;overflow-x:auto;flex:1;scrollbar-width:none}
+.ln a{color:var(--mu);text-decoration:none;padding:6px 12px;border-radius:20px;font-size:14px;white-space:nowrap}
+.ln a:hover,.ln a.on{background:var(--soft);color:var(--pr);font-weight:600}
+#th{background:var(--soft);border:0;border-radius:50%;width:36px;height:36px;font-size:18px;cursor:pointer;color:var(--pr)}
+main{padding-top:28px;padding-bottom:50px;min-height:80vh}
+h1{font-size:clamp(34px,7vw,58px);line-height:1.1;letter-spacing:-.02em;margin:8px 0}
+h2{font-size:28px;margin:34px 0 6px}h2::after{content:"";display:block;width:46px;height:5px;border-radius:3px;background:linear-gradient(90deg,var(--pr),var(--co));margin-top:8px}
+.grad{background:linear-gradient(90deg,var(--pr),var(--co));-webkit-background-clip:text;background-clip:text;color:transparent}
+.eb{color:var(--co);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.sub{color:var(--mu);max-width:680px;margin:10px 0 18px}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:30px;align-items:center;padding:18px 0}
+.ty{font-size:22px;font-weight:700;color:var(--pr);min-height:34px}.cu{animation:bl 1s infinite;color:var(--co)}@keyframes bl{50%{opacity:0}}
+.lead{color:var(--mu);margin:8px 0 18px}
+.bt{display:flex;gap:10px;flex-wrap:wrap}
+.btn{background:var(--pr);color:#fff;border:2px solid var(--pr);padding:10px 18px;border-radius:10px;font:600 15px inherit;font-family:inherit;text-decoration:none;cursor:pointer;transition:.2s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(14,159,154,.3)}.btn.o{background:transparent;color:var(--pr)}
+.fact{margin-top:14px;background:var(--soft);border-left:4px solid var(--su);padding:10px 14px;border-radius:0 10px 10px 0;display:none}
+.hp{position:relative;display:grid;place-items:center}
+.gear{position:absolute;width:112%;max-width:420px;animation:sp 24s linear infinite;opacity:.55}@keyframes sp{to{rotate:360deg}}
+.im{position:relative;aspect-ratio:16/10;border-radius:16px;overflow:hidden;background:var(--soft);border:2px dashed var(--pr);width:100%}
+.im.rd{aspect-ratio:1;border-radius:50%;max-width:300px;z-index:1}
+.im:not(.empty){border:0}.im img{width:100%;height:100%;object-fit:cover;display:block}
+.im span{display:none;position:absolute;inset:0;align-items:center;justify-content:center;text-align:center;font-size:13px;color:var(--pr);padding:10px;font-weight:600}
+.im.empty img{display:none}.im.empty span{display:flex}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0}
+.stat{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:16px;text-align:center}
+.stat b{display:block;font-size:34px;color:var(--pr)}.stat:nth-child(even) b{color:var(--co)}.stat span{font-size:13px;color:var(--mu)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:16px;transition:box-shadow .2s;transform:perspective(700px) rotateX(var(--rx,0)) rotateY(var(--ry,0));text-decoration:none;color:inherit;display:block}
+.card:hover{box-shadow:0 12px 28px rgba(14,159,154,.22)}.card h3{font-size:17px;margin:10px 0 4px}.card p{font-size:14px;color:var(--mu)}
+.card .ic{font-size:26px}
+.tg{display:inline-block;font-size:11px;font-weight:700;background:var(--soft);color:var(--pr);padding:2px 10px;border-radius:20px;margin:6px 6px 0 0}
+.tg.c{background:#ffe3da;color:#c24a28}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.chip{border:1.5px solid var(--pr);background:transparent;color:var(--pr);padding:5px 14px;border-radius:20px;cursor:pointer;font:600 13px inherit;font-family:inherit;transition:.2s}
+.chip.on,.chip:hover{background:var(--pr);color:#fff}
+.sk{background:var(--sf);border:1.5px solid var(--ln);color:var(--tx);padding:7px 14px;border-radius:12px;font-size:14px;transition:.2s;cursor:default}.sk:hover{transform:scale(1.1) rotate(-2deg);border-color:var(--co);background:#ffe3da;color:#7a2a12}
+.job{background:var(--sf);border:1px solid var(--ln);border-left:5px solid var(--pr);border-radius:14px;margin-bottom:14px;overflow:hidden}
+.job:nth-child(even){border-left-color:var(--co)}
+.jh{width:100%;text-align:left;background:none;border:0;padding:16px;cursor:pointer;color:inherit;font:inherit;display:flex;justify-content:space-between;gap:10px}
+.jh b{display:block;font-size:17px}.jh small{color:var(--mu)}.jh em{color:var(--pr);font-style:normal;font-size:13px;font-weight:700;white-space:nowrap}
+.jb{display:none;padding:0 16px 16px}.job.open .jb{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+.jb ul{padding-left:18px;color:var(--mu);font-size:14.5px}.jb li{margin-bottom:5px}
+.tl{border-left:3px solid var(--pr);padding-left:18px}.tl div{position:relative;padding:8px 0;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.tl div::before{content:"";position:absolute;left:-26px;top:16px;width:11px;height:11px;border-radius:50%;background:var(--co)}
+.tl span{color:var(--mu);font-size:14px}
+.md{position:fixed;inset:0;background:rgba(5,25,30,.7);display:none;place-items:center;z-index:9;padding:16px}.md.on{display:grid}
+.mb{background:var(--sf);border-radius:20px;max-width:640px;width:100%;max-height:88vh;overflow:auto;padding:20px;animation:pop .25s}@keyframes pop{from{scale:.9;opacity:0}}
+.mb ul{padding-left:18px;color:var(--mu);margin:10px 0}.mb h3{font-size:22px;margin-top:12px}
+.ts{position:fixed;bottom:24px;left:50%;translate:-50% 80px;background:var(--pr);color:#fff;padding:10px 20px;border-radius:30px;transition:.3s;z-index:10;font-weight:600}.ts.on{translate:-50% 0}
+.cf{position:fixed;top:-30px;z-index:20;animation:fl 2.4s linear forwards;pointer-events:none}@keyframes fl{to{top:105vh;rotate:540deg}}
+.rv{opacity:0;translate:0 16px;transition:opacity .5s,translate .5s}.rv.in{opacity:1;translate:0 0}
+footer{text-align:center;color:var(--mu);font-size:13px;padding:22px;border-top:1px solid var(--ln)}
+@media(max-width:700px){.hero,.job.open .jb{grid-template-columns:1fr}.jh{flex-direction:column}}
+</style></head><body>
+<nav><div class="w nv"><a class="lg" id="lg" href="#home">HN<i>.</i></a><div class="ln" id="nl"></div><button id="th" aria-label="Toggle light or dark mode">◐</button></div></nav>
+<main class="w" id="app"></main>
+<footer>© 2026 Hirhyel Ndahi · Click the HN logo 5 times for a surprise</footer>
+<div class="md" id="md"></div><div class="ts" id="ts"></div>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const P=[["home","Home"],["about","About"],["experience","Experience"],["projects","Projects"],["skills","Skills"],["leadership","Leadership"],["contact","Contact"]];
+const SUM="Engineering Technology graduate with hands-on experience in robotic system integration, quality and lean, process validation, and technical troubleshooting in lab and regulated production environments. I also train end users on automation and engineering software, and I like working independently on fast-paced, project-driven teams.";
+const DRIVE="https://drive.google.com/drive/folders/1eQilbsimMZN5eSgf6XNLzc7s2ufX-cAX?usp=sharing";
+const im=(f,l,c="")=>`<div class="im ${c}"><img src="images/${f}" alt="${l}" onerror="this.parentNode.classList.add('empty')"><span>ADD IMAGE HERE<br>images/${f}<br>${l}</span></div>`;
+const ROLES=["Engineering Technology Graduate","Robotics and Automation","Civil Design Intern","Lean and Quality Problem Solver"];
+const FACTS=["I turned recycled PET water bottles into 3D printing filament.","I design plasma cut files in Torchmate, then cut them myself.","I burn designs into wood as a hobby.","I trained 50+ students per semester on robots, PLCs, and CNC machines.","I drafted road plans in MicroStation and OpenRoads for IDOT.","I designed the drivetrain and power system for a 72V electric race kart."];
+const JOBS=[
+{t:"Geometrics Civil Design Engineering Intern",o:"Illinois Department of Transportation (IDOT), District 9 | Carbondale, IL",d:"May 2026 - August 2026",i:["idot-work.jpg","Road plan or MicroStation drawing"],b:["Supported planning of annual and multi-year transportation projects in the Program Development Bureau, Design section.","Prepared highway design plans for project lettings, organizing documentation needed at each design stage.","Drafted and revised roadway design drawings in MicroStation CONNECT Edition and OpenRoads Designer, implementing engineering edits and updates to plan sets.","Managed and exchanged project files through ProjectWise to support team collaboration and document control.","Estimated preliminary and final construction costs to support project budgeting and resource allocation.","Helped evaluate and program infrastructure improvements across District 9.","Worked full-time (40 hours/week) alongside licensed Professional Engineers and technical staff on active project assignments."]},
+{t:"Graduate Teaching Support Assistant",o:"Engineering Technology Department, Western Illinois University | Macomb, IL",d:"August 2025 - May 2026",i:["gta-lab.jpg","Teaching in the robotics or CNC lab"],b:["Delivered hands-on robotic system training to 50+ students per semester on Universal Robots, PLC systems, CNC machines, and CAM software.","Diagnosed and resolved hardware and software issues on lab automation equipment, maintaining uptime and safe, accurate operation.","Developed and maintained structured lab documentation and instructional guides to standardize workflow and support repeatable setup.","Assisted faculty with course instruction across CAD modeling, CNC machining, and manufacturing processes."]},
+{t:"Manufacturing Engineering Co-Op",o:"Cook Medical | Canton, IL",d:"January 2024 - April 2024",i:["cook-medical.jpg","Fixture drawing or layout from Cook Medical"],b:["Supported integration and commissioning of capital equipment in an FDA-regulated medical device production environment, including setup, testing, and performance validation.","Conducted validation tests and collected IQ/OQ/PQ data to verify new systems met specifications and regulatory requirements.","Performed time studies and validated machine capabilities to confirm production throughput targets.","Diagnosed and resolved non-conformance issues using 5 Whys and Pareto Chart root cause analysis, supporting ISO 13485 and FDA compliance.","Developed 15+ detailed 2D/3D technical drawings in AutoCAD and SolidWorks for fixture design and equipment integration.","Maintained documentation and records and collaborated with cross-functional teams across R&D, Quality, and Production."]}];
+const PROJ=[
+{id:"ev",t:"EV Racing Cart",c:"Electrical",e:"⚡",f:"ev-kart.jpg",s:"72V race kart for the Leatherneck Engineering Division.",b:["Designed and integrated a drivetrain and power distribution system.","Configured motor controller parameters and implemented secure connector interfaces.","Performed system diagnostics and performance validation testing.","Serve as team Treasurer for Leatherneck Engineering Division EV Racing."]},
+{id:"rob",t:"Robotics Lab Manual",c:"Robotics",e:"🤖",f:"ur10-manual.jpg",s:"A student guide for Universal Robots setup and programming.",b:["Designed a structured student lab guide for robotic system setup and programming.","Standardized the build workflow and improved repeatability of integration steps."]},
+{id:"kai",t:"Plasma and Welding Lab Kaizen",c:"Fabrication",e:"🔥",f:"kaizen-lab.jpg",s:"Turned a workspace into a functional instructional lab.",b:["Evaluated lab inefficiencies and improved layout and safety flow.","Converted the workspace into a functional instructional lab using Lean and Kaizen principles."]},
+{id:"pet",t:"3D Printing Research",c:"Research",e:"♻️",f:"pet-filament.jpg",s:"Recycled PET bottles into 3D printing filament.",b:["Processed post-consumer PET bottles into 3D printing filament.","Tested tensile strength, layer adhesion, and surface roughness against virgin PLA under controlled moisture conditions.","Comfortable with the full 3D printing process, from file prep to finished part."]},
+{id:"cad",t:"CAD Drawings",c:"Design",e:"📐",f:"cad-drawings.jpg",s:"2D and 3D drawings across AutoCAD, SolidWorks, Inventor, and Creo.",b:["Developed 15+ detailed 2D/3D technical drawings at Cook Medical for fixture design and equipment integration.","Class and project drawings in AutoCAD, SolidWorks, Inventor, and Creo."]},
+{id:"cnc",t:"CAM and CNC Machining",c:"Fabrication",e:"⚙️",f:"cnc-parts.jpg",s:"From CAD model to toolpath to machined part.",b:["CAM programming and CNC machining projects from coursework.","Taught CNC machines and CAM software to 50+ students per semester."]},
+{id:"tor",t:"Torchmate Plasma Designs",c:"Fabrication",e:"✂️",f:"plasma-cuts.jpg",s:"Cut designs created in Torchmate and cut on the plasma cutter.",b:["Designed plasma and welding cut files in Torchmate.","Cut the designs myself on the plasma cutter."]},
+{id:"wood",t:"Pyrography and Wood Burning",c:"Creative",e:"🪵",f:"wood-burning.jpg",s:"My creative hobby: designs burned into wood.",b:["Wood etching, pyrography, and wood burning designs made as a hobby."]}];
+const SK={"Robotics and Automation":["Universal Robots (UR) programming","PLC systems","CNC Machining","CAM","System integration and validation"],"Civil and Transportation Design":["MicroStation CONNECT Edition","OpenRoads Designer","ProjectWise","Highway design","Plan production for lettings","Construction cost estimating"],"CAD and Design Tools":["AutoCAD","SolidWorks","DraftSight","Bluebeam","3D Printing"],"Troubleshooting and Validation":["Hardware and software diagnostics","Root cause analysis","IQ/OQ/PQ process validation","Time studies","PFMEA"],"Process Improvement":["Lean","Six Sigma","5S","Kaizen","5 Whys","PDCA"],"Documentation":["SOP development","Technical logs","Field activity records","ERP/MES systems"],"Data Analysis":["Minitab","Power BI","Microsoft Excel (Advanced)"]};
+const LEAD=[["Treasurer | Leatherneck Engineering Division EV Racing, WIU","August 2025 - May 2026"],["Co-Director of Special Events | RockyTHON, WIU","November 2024 - May 2026"],["Co-Director of Recruitment | RockyTHON, WIU","September 2023 - January 2024"],["Resident Assistant | University Housing and Dining Services, WIU","August 2022 - May 2023"],["Member | WIU Centennial Honors College","August 2021 - May 2026"],["Member | National Society of Collegiate Scholars, WIU","October 2021 - May 2026"],["Member | Inter-hall Council, WIU","August 2021 - May 2026"]];
+const CERT=[["MicroStation for Civil Designers","Bentley Advancing Infrastructure"],["OSHA 30-Hour General Industry Safety and Health","National Safety Education Center"],["Business Plan Development","Harvard Business Impact Education"],["Mental Health First Aid","National Council for Mental Wellbeing"]];
+const ICO={about:"🙋",experience:"💼",projects:"🛠️",skills:"🧰",leadership:"🏁",contact:"✉️"};
+const DESC={about:"Education, certifications, and who I am.",experience:"IDOT, WIU, and Cook Medical.",projects:"Click a project to see the details.",skills:"Tools and methods I use.",leadership:"Teams, events, and honors.",contact:"Let’s build something."};
+const PG={
+home:()=>`<section class="hero"><div><p class="eb">Engineering Technology · Western Illinois University</p><h1>Hi, I’m <span class="grad">Hirhyel Ndahi</span></h1><p class="ty"><span id="ty"></span><b class="cu">|</b></p><p class="lead">${SUM}</p><div class="bt"><a class="btn" href="#projects">Explore my work</a><a class="btn o" href="#contact">Let’s talk</a><button class="btn o" data-fact>🎲 Surprise me</button></div><p class="fact" id="fact"></p></div><div class="hp"><svg class="gear" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#ff7a59" stroke-width="10" stroke-dasharray="6.3 6.3"/><circle cx="50" cy="50" r="33" fill="none" stroke="#0e9f9a" stroke-width="4"/></svg>${im("profile.jpg","Your portrait photo","rd")}</div></section>
+<div class="stats"><div class="stat rv"><b data-n="4" data-d="1">0</b><span>M.S. GPA</span></div><div class="stat rv"><b data-n="15" data-s="+">0</b><span>production drawings at Cook Medical</span></div><div class="stat rv"><b data-n="50" data-s="+">0</b><span>students trained per semester</span></div><div class="stat rv"><b data-n="72" data-s="V">0</b><span>EV race kart system</span></div></div>
+<h2>Explore</h2><div class="grid">${P.slice(1).map(([k,l])=>`<a class="card rv" href="#${k}"><div class="ic">${ICO[k]}</div><h3>${l}</h3><p>${DESC[k]}</p></a>`).join("")}</div>`,
+about:()=>`<h2>About me</h2><div class="hero" style="grid-template-columns:1fr 1fr"><div><p class="sub">${SUM}</p><p class="sub">Outside of engineering I enjoy wood burning, creating designs by hand in wood.</p><a class="btn" href="${DRIVE}" target="_blank" rel="noopener">Open my Drive portfolio</a></div>${im("about.jpg","A photo of you working or in the lab")}</div>
+<h2>Education</h2><div class="grid"><div class="card rv"><span class="tg">Aug 2025 - May 2026</span><h3>M.S. Engineering Technology</h3><p>Western Illinois University<br>GPA 4.0 / 4.0</p></div><div class="card rv"><span class="tg c">Aug 2021 - May 2025</span><h3>B.S. Engineering Technology</h3><p>Western Illinois University<br>GPA 3.7 / 4.0 · Cum Laude · General Honors Scholars · Minor in French (GPA 4.0)</p></div></div>
+<h2>Certifications</h2><div class="grid">${CERT.map(c=>`<div class="card rv"><div class="ic">🎓</div><h3>${c[0]}</h3><p>${c[1]}</p></div>`).join("")}</div><p class="sub">Also completed: MicroStation CONNECT Edition Basics for Civil Designers, Bentley Systems (9 CEUs, June 2026).</p>`,
+experience:()=>`<h2>Experience</h2><p class="sub">Click a role to open it.</p>${JOBS.map((j,n)=>`<div class="job rv ${n?"":"open"}"><button class="jh" data-j><span><b>${j.t}</b><small>${j.o}</small></span><em>${j.d}</em></button><div class="jb"><ul>${j.b.map(x=>`<li>${x}</li>`).join("")}</ul>${im(j.i[0],j.i[1])}</div></div>`).join("")}`,
+projects:()=>`<h2>Projects</h2><p class="sub">Filter by type, then click a card.</p><div class="chips">${["All",...new Set(PROJ.map(p=>p.c))].map((c,i)=>`<button class="chip ${i?"":"on"}" data-f="${c}">${c}</button>`).join("")}</div><div class="grid" id="pg"></div>`,
+skills:()=>`<h2>Skills</h2><p class="sub">Pick a category. Hover over a skill.</p><div class="chips">${Object.keys(SK).map((k,i)=>`<button class="chip ${i?"":"on"}" data-s="${k}">${k}</button>`).join("")}</div><div class="chips" id="sk"></div>`,
+leadership:()=>`<h2>Leadership and involvement</h2><p class="sub">Teams and organizations I have helped lead.</p><div class="tl">${LEAD.map(l=>`<div class="rv"><b>${l[0]}</b><span>${l[1]}</span></div>`).join("")}</div>`,
+contact:()=>`<h2>Contact</h2><p class="sub">I’d love to hear about your project or team. Tap a card to copy or open it.</p><div class="grid"><button class="card rv" data-copy="hirhyeld@gmail.com" style="text-align:left;font:inherit;cursor:pointer"><div class="ic">✉️</div><h3>Email</h3><p>hirhyeld@gmail.com</p></button><button class="card rv" data-copy="+1 (717) 962-9061" style="text-align:left;font:inherit;cursor:pointer"><div class="ic">📞</div><h3>Phone</h3><p>+1 (717) 962-9061</p></button><a class="card rv" href="https://www.linkedin.com/in/hirhyel-david-ndahi" target="_blank" rel="noopener"><div class="ic">💼</div><h3>LinkedIn</h3><p>linkedin.com/in/hirhyel-david-ndahi</p></a><a class="card rv" href="${DRIVE}" target="_blank" rel="noopener"><div class="ic">📁</div><h3>Full portfolio</h3><p>Drawings, research, and files on Google Drive</p></a></div>`};
+let T,io;
+const toast=m=>{const t=$("#ts");t.textContent=m;t.classList.add("on");setTimeout(()=>t.classList.remove("on"),1800)};
+const boom=()=>{for(let i=0;i<40;i++){const s=document.createElement("span");s.className="cf";s.textContent=["⚙️","✨","🔧","💡"][i%4];s.style.cssText=`left:${Math.random()*100}vw;animation-delay:${Math.random()*.6}s;font-size:${16+Math.random()*16}px`;document.body.appendChild(s);setTimeout(()=>s.remove(),3200)}};
+const drawP=f=>{$("#pg").innerHTML=PROJ.filter(p=>f=="All"||p.c==f).map(p=>`<button class="card rv in" data-p="${p.id}" style="text-align:left;font:inherit;cursor:pointer">${im(p.f,p.t)}<h3>${p.e} ${p.t}</h3><p>${p.s}</p><span class="tg">${p.c}</span></button>`).join("")};
+const drawS=k=>{$("#sk").innerHTML=SK[k].map(s=>`<span class="sk">${s}</span>`).join("")};
+const INIT={
+home:()=>{let i=0,j=0,d=0;const el=$("#ty");(function k(){if(!el.isConnected)return;el.textContent=ROLES[i].slice(0,j);if(!d){if(j<ROLES[i].length)j++;else{d=1;T=setTimeout(k,1200);return}}else{if(j>0)j--;else{d=0;i=(i+1)%ROLES.length}}T=setTimeout(k,d?40:80)})();
+$$("[data-n]").forEach(e=>{const n=+e.dataset.n,dc=+e.dataset.d||0,s=e.dataset.s||"";let t0;const f=t=>{t0=t0||t;const p=Math.min((t-t0)/1200,1);e.textContent=(n*p).toFixed(dc)+s;if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)})},
+projects:()=>drawP("All"),skills:()=>drawS(Object.keys(SK)[0])};
+function route(){clearTimeout(T);const h=location.hash.slice(1),k=PG[h]?h:"home";$("#app").innerHTML=PG[k]();$$(".ln a").forEach(a=>a.classList.toggle("on",a.dataset.k==k));scrollTo(0,0);INIT[k]&&INIT[k]();io&&io.disconnect();io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.1});$$(".rv").forEach(e=>io.observe(e))}
+$("#nl").innerHTML=P.map(([k,l])=>`<a href="#${k}" data-k="${k}">${l}</a>`).join("");
+addEventListener("hashchange",route);route();
+let lc=0;
+document.addEventListener("click",e=>{const g=a=>e.target.closest(a);let x;
+if(g("#lg")){if(++lc>=5){lc=0;boom()}}
+if(x=g("[data-fact]")){const f=$("#fact");f.style.display="block";f.textContent="💡 "+FACTS[Math.floor(Math.random()*FACTS.length)]}
+if(x=g("[data-j]"))x.parentNode.classList.toggle("open");
+if(x=g("[data-f]")){$$("[data-f]").forEach(c=>c.classList.toggle("on",c==x));drawP(x.dataset.f)}
+if(x=g("[data-s]")){$$("[data-s]").forEach(c=>c.classList.toggle("on",c==x));drawS(x.dataset.s)}
+if(x=g("[data-copy]")){navigator.clipboard&&navigator.clipboard.writeText(x.dataset.copy);toast("Copied: "+x.dataset.copy)}
+if(x=g("[data-p]")){const p=PROJ.find(q=>q.id==x.dataset.p),m=$("#md");m.innerHTML=`<div class="mb">${im(p.f,p.t)}<h3>${p.e} ${p.t}</h3><span class="tg">${p.c}</span><ul>${p.b.map(b=>`<li>${b}</li>`).join("")}</ul><button class="btn" data-x>Close</button></div>`;m.classList.add("on")}
+if(g("[data-x]")||e.target.id=="md")$("#md").classList.remove("on")});
+addEventListener("keydown",e=>{if(e.key=="Escape")$("#md").classList.remove("on")});
+document.addEventListener("mousemove",e=>{const c=e.target.closest(".card");$$(".card").forEach(k=>{if(k!=c){k.style.removeProperty("--rx");k.style.removeProperty("--ry")}});if(c){const r=c.getBoundingClientRect();c.style.setProperty("--ry",((e.clientX-r.left)/r.width-.5)*8+"deg");c.style.setProperty("--rx",((e.clientY-r.top)/r.height-.5)*-8+"deg")}});
+$("#th").onclick=()=>{const r=document.documentElement,d=r.dataset.theme?r.dataset.theme=="dark":matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=d?"light":"dark"};
+</script></body></html>

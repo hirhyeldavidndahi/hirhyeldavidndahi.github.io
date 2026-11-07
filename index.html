@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Hirhyel Ndahi | Engineering Portfolio</title>
+<title>Hirhyel D. Ndahi | Engineering Portfolio</title>
 <style>
 :root{--bg:#f3fbfa;--sf:#fff;--tx:#0d2b33;--mu:#4c6870;--pr:#0e9f9a;--soft:#d9f3f1;--co:#ff7a59;--su:#ffc857;--ln:#cde6e4;color-scheme:light}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0a1c21;--sf:#112a31;--tx:#e8f6f5;--mu:#9bbcc0;--pr:#2fd0c9;--soft:#14383d;--ln:#1f4249;color-scheme:dark}}
@@ -66,9 +66,9 @@ h2{font-size:28px;margin:34px 0 6px}h2::after{content:"";display:block;width:46p
 footer{text-align:center;color:var(--mu);font-size:13px;padding:22px;border-top:1px solid var(--ln)}
 @media(max-width:700px){.hero,.job.open .jb{grid-template-columns:1fr}.jh{flex-direction:column}}
 </style></head><body>
-<nav><div class="w nv"><a class="lg" id="lg" href="#home">HN<i>.</i></a><div class="ln" id="nl"></div><button id="th" aria-label="Toggle light or dark mode">◐</button></div></nav>
+<nav><div class="w nv"><a class="lg" id="lg" href="#home">HDN<i>.</i></a><div class="ln" id="nl"></div><button id="th" aria-label="Toggle light or dark mode">◐</button></div></nav>
 <main class="w" id="app"></main>
-<footer>© 2026 Hirhyel Ndahi · Click the HN logo 5 times for a surprise</footer>
+<footer>© 2026 Hirhyel D. Ndahi · Click the HN logo 5 times for a surprise</footer>
 <div class="md" id="md"></div><div class="ts" id="ts"></div>
 <script>
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
@@ -97,7 +97,7 @@ const CERT=[["MicroStation for Civil Designers","Bentley Advancing Infrastructur
 const ICO={about:"🙋",experience:"💼",projects:"🛠️",skills:"🧰",leadership:"🏁",contact:"✉️"};
 const DESC={about:"Education, certifications, and who I am.",experience:"IDOT, WIU, and Cook Medical.",projects:"Click a project to see the details.",skills:"Tools and methods I use.",leadership:"Teams, events, and honors.",contact:"Let’s build something."};
 const PG={
-home:()=>`<section class="hero"><div><p class="eb">Engineering Technology · Western Illinois University</p><h1>Hi, I’m <span class="grad">Hirhyel Ndahi</span></h1><p class="ty"><span id="ty"></span><b class="cu">|</b></p><p class="lead">${SUM}</p><div class="bt"><a class="btn" href="#projects">Explore my work</a><a class="btn o" href="#contact">Let’s talk</a><button class="btn o" data-fact>🎲 Surprise me</button></div><p class="fact" id="fact"></p></div><div class="hp"><svg class="gear" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#ff7a59" stroke-width="10" stroke-dasharray="6.3 6.3"/><circle cx="50" cy="50" r="33" fill="none" stroke="#0e9f9a" stroke-width="4"/></svg>${im("profile.jpg","Your portrait photo","rd")}</div></section>
+home:()=>`<section class="hero"><div><p class="eb">Engineering Technology · Western Illinois University</p><h1>Hi, I’m <span class="grad">Hirhyel D. Ndahi</span></h1><p class="ty"><span id="ty"></span><b class="cu">|</b></p><p class="lead">${SUM}</p><div class="bt"><a class="btn" href="#projects">Explore my work</a><a class="btn o" href="#contact">Let’s talk</a><button class="btn o" data-fact>🎲 Surprise me</button></div><p class="fact" id="fact"></p></div><div class="hp"><svg class="gear" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#ff7a59" stroke-width="10" stroke-dasharray="6.3 6.3"/><circle cx="50" cy="50" r="33" fill="none" stroke="#0e9f9a" stroke-width="4"/></svg>${im("profile.jpg","Your portrait photo","rd")}</div></section>
 <div class="stats"><div class="stat rv"><b data-n="4" data-d="1">0</b><span>M.S. GPA</span></div><div class="stat rv"><b data-n="15" data-s="+">0</b><span>production drawings at Cook Medical</span></div><div class="stat rv"><b data-n="50" data-s="+">0</b><span>students trained per semester</span></div><div class="stat rv"><b data-n="72" data-s="V">0</b><span>EV race kart system</span></div></div>
 <h2>Explore</h2><div class="grid">${P.slice(1).map(([k,l])=>`<a class="card rv" href="#${k}"><div class="ic">${ICO[k]}</div><h3>${l}</h3><p>${DESC[k]}</p></a>`).join("")}</div>`,
 about:()=>`<h2>About me</h2><div class="hero" style="grid-template-columns:1fr 1fr"><div><p class="sub">${SUM}</p><p class="sub">Outside of engineering I enjoy wood burning, creating designs by hand in wood.</p><a class="btn" href="${DRIVE}" target="_blank" rel="noopener">Open my Drive portfolio</a></div>${im("about.jpg","A photo of you working or in the lab")}</div>

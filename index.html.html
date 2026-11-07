@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hirhyel Ndahi | Engineering Portfolio</title>
+<style>
+:root{--bg:#faf9ff;--surface:#fff;--text:#1e1b2e;--muted:#5d5a70;--accent:#5b34b8;--accent-soft:#eeeafc;--gold:#e0a800;--line:#e2dff0;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#13111c;--surface:#1c1929;--text:#efedf8;--muted:#a9a5c0;--accent:#a68bf0;--accent-soft:#2a2442;--gold:#f0c43a;--line:#322d49;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#13111c;--surface:#1c1929;--text:#efedf8;--muted:#a9a5c0;--accent:#a68bf0;--accent-soft:#2a2442;--gold:#f0c43a;--line:#322d49;color-scheme:dark}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px))}
+body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
+.logo{font-weight:700;color:var(--accent);text-decoration:none}
+.links{display:flex;gap:16px;overflow-x:auto;font-size:14px}
+.links a{color:var(--muted);text-decoration:none;white-space:nowrap}
+.links a:hover{color:var(--accent)}
+.hero{padding:64px 0 48px}
+.eyebrow{color:var(--accent);font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:clamp(34px,7vw,56px);line-height:1.1;margin:10px 0 14px;letter-spacing:-.02em}
+.lead{font-size:18px;color:var(--muted);max-width:640px}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.btn{padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;border:1.5px solid var(--accent);color:var(--accent)}
+.btn.fill{background:var(--accent);color:var(--bg)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:36px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.stat b{display:block;font-size:24px;color:var(--accent)}
+.stat span{font-size:13px;color:var(--muted)}
+section{padding:44px 0;border-top:1px solid var(--line)}
+h2{font-size:26px;margin-bottom:6px}
+h2::after{content:"";display:block;width:44px;height:4px;background:var(--gold);border-radius:2px;margin-top:8px}
+.sub{color:var(--muted);margin:12px 0 22px;max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{font-size:17px;margin-bottom:6px}
+.card p{font-size:14.5px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.tag{font-size:12px;background:var(--accent-soft);color:var(--accent);padding:3px 10px;border-radius:20px}
+.job{border-left:3px solid var(--accent);padding:2px 0 2px 16px;margin-bottom:22px}
+.job h3{font-size:17px}
+.job .meta{font-size:13px;color:var(--muted);margin-bottom:6px}
+.job ul{padding-left:18px;font-size:14.5px;color:var(--muted)}
+.job li{margin-bottom:3px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.contact a{color:var(--accent)}
+footer{padding:28px 0;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#top">HN</a>
+<div class="links"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#creative">Creative</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+<div class="eyebrow">Engineering Technology · Western Illinois University</div>
+<h1>Hirhyel Ndahi</h1>
+<p class="lead">I design, build, and improve things. From CAD drawings and CNC programs to robots, race karts, and lab Kaizen projects, I turn technical problems into working solutions.</p>
+<div class="btns"><a class="btn fill" href="#work">See my work</a><a class="btn" href="#contact">Get in touch</a></div>
+<div class="stats">
+<div class="stat"><b>4.0</b><span>M.S. GPA</span></div>
+<div class="stat"><b>15+</b><span>production drawings at Cook Medical</span></div>
+<div class="stat"><b>50+</b><span>students taught per semester</span></div>
+<div class="stat"><b>72V</b><span>EV race kart systems</span></div>
+</div></div></header>
+
+<section id="about"><div class="wrap">
+<h2>About me</h2>
+<p class="sub">I’m completing my M.S. in Engineering Technology at WIU after earning my B.S. with Cum Laude honors. I’ve worked in an FDA-regulated medical device plant, taught students on CNC machines and Universal Robots, and led hands-on projects from 3D printing research to a lab redesign. I like work where precision, safety, and clear documentation matter.</p>
+</div></section>
+
+<section id="work"><div class="wrap">
+<h2>Projects and skill areas</h2>
+<p class="sub">Each area has its own write-up and files in my portfolio folders.</p>
+<div class="grid">
+<div class="card"><h3>CAD and Technical Drawings</h3><p>2D and 3D drawings, fixture designs, and production layouts across multiple platforms, including 15+ drawings for manufacturing lines at Cook Medical.</p><div class="tags"><span class="tag">AutoCAD</span><span class="tag">SolidWorks</span><span class="tag">Inventor</span><span class="tag">Creo</span></div></div>
+<div class="card"><h3>CAM and CNC Machining</h3><p>I take parts from design file to toolpath to finished machining, and I teach CNC setup and safe operation to students each semester.</p><div class="tags"><span class="tag">CAM</span><span class="tag">CNC</span><span class="tag">Toolpaths</span></div></div>
+<div class="card"><h3>Master’s Research: Recycled PET Filament</h3><p>I turned post-consumer PET bottles into 3D printing filament, then printed test specimens and compared tensile strength, layer adhesion, and surface roughness against virgin PLA.</p><div class="tags"><span class="tag">3D Printing</span><span class="tag">Materials Testing</span><span class="tag">Sustainability</span></div></div>
+<div class="card"><h3>Robotics Manual Development</h3><p>I wrote a structured UR10 student manual that standardized the build and programming workflow for lab sessions.</p><div class="tags"><span class="tag">Universal Robots</span><span class="tag">PLC</span><span class="tag">Technical Writing</span></div></div>
+<div class="card"><h3>Welding and Plasma Lab Kaizen</h3><p>I evaluated lab inefficiencies, redesigned the layout and safety flow, and converted the space into a functional instructional lab.</p><div class="tags"><span class="tag">Kaizen</span><span class="tag">5S</span><span class="tag">Lab Safety</span></div></div>
+<div class="card"><h3>Torchmate Design and Plasma Cutting</h3><p>I design cut files in Torchmate and run them on the plasma cutter, handling setup, parameters, and finishing myself.</p><div class="tags"><span class="tag">Torchmate</span><span class="tag">Plasma Cutting</span><span class="tag">Welding</span></div></div>
+<div class="card"><h3>Electric Racing Vehicle</h3><p>I designed and integrated the drivetrain and power distribution system for WIU’s 72V EV race kart, configured motor controller parameters, and ran diagnostics. I also serve as team Treasurer.</p><div class="tags"><span class="tag">72V EV</span><span class="tag">Motor Controllers</span><span class="tag">High Voltage</span></div></div>
+<div class="card"><h3>3D Printing Practice</h3><p>I’m comfortable with the full FDM process: file prep, slicing, machine setup, troubleshooting, and post-processing.</p><div class="tags"><span class="tag">FDM</span><span class="tag">Slicing</span><span class="tag">Post-processing</span></div></div>
+</div></div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2><p class="sub"></p>
+<div class="job"><h3>Geometrics Engineering Intern</h3><div class="meta">IDOT District 9 · Carbondale, IL</div>
+<ul><li>Support transportation project documentation and road design drafting</li><li>Work in MicroStation, OpenRoads, and ProjectWise</li></ul></div>
+<div class="job"><h3>Graduate Teaching Support Assistant</h3><div class="meta">Engineering Technology Department, WIU · Aug 2025 to present</div>
+<ul><li>Guide 50+ students per semester on AutoCAD, CAM, CNC machines, PLCs, and Universal Robots</li><li>Deliver hands-on training and enforce lab safety protocols</li><li>Support faculty with lectures and tutorials, and mentor students one-on-one</li></ul></div>
+<div class="job"><h3>Manufacturing Engineering Co-Op</h3><div class="meta">Cook Medical · Canton, IL · Jan 2024 to Apr 2024</div>
+<ul><li>Supported process validation, equipment integration, and quality compliance in an FDA-regulated environment</li><li>Developed 15+ 2D/3D drawings and production layouts in AutoCAD and SolidWorks</li><li>Ran root cause analyses with 5 Whys and Pareto Charts, supporting FDA and ISO 13485 requirements</li><li>Collected and analyzed IQ/OQ/PQ data and performed time studies to validate machine capability</li><li>Worked with R&D, Quality, and Production teams on process improvements</li></ul></div>
+<div class="job"><h3>IT Laboratory Assistant</h3><div class="meta">University Technology, WIU · Aug 2022 to Jan 2024</div>
+<ul><li>Supported 100+ students and faculty per semester across 40+ workstations</li><li>Wrote training resources and troubleshooting guides</li></ul></div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2><p class="sub"></p>
+<div class="skills">
+<div class="card"><h3>Design</h3><p>AutoCAD, SolidWorks, Inventor, Creo, DraftSight, Bluebeam, MicroStation, OpenRoads</p></div>
+<div class="card"><h3>Manufacturing</h3><p>CNC, CAM, Torchmate, plasma cutting, welding, 3D printing, Universal Robots, PLC systems</p></div>
+<div class="card"><h3>Process Improvement</h3><p>Lean, Kaizen, 5S, root cause analysis, time studies, WHY-WHY-HOW</p></div>
+<div class="card"><h3>Data and Quality</h3><p>Minitab, Power BI, advanced Excel, ERP/MES, IQ/OQ/PQ, SOP development</p></div>
+</div></div></section>
+
+<section id="creative"><div class="wrap">
+<h2>Beyond engineering</h2>
+<p class="sub">Outside of work I do wood burning and pyrography. I design my own patterns, transfer them to wood, and build up shading and detail with layered passes. The same patience and precision show up in my engineering work.</p>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+<h2>Contact</h2>
+<p class="sub">I’m open to engineering roles where I can apply technical skills and project management. Reach out any time.</p>
+<p><a href="mailto:hirhyeld@gmail.com">hirhyeld@gmail.com</a> · <a href="tel:+17179629061">(717) 962-9061</a> · <a href="https://www.linkedin.com/in/hirhyel-david-ndahi">LinkedIn</a></p>
+</div></section>
+<footer>© 2026 Hirhyel Ndahi</footer>
+</body>
+</html>
